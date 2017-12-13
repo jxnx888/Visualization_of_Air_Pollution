@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Visualization of Beijing Air Pollution</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Scott Cheng">
+    <meta name="description" content="Visualization of the intensity distribution of several major pollutants in Beijing over two weeks">
+    <script src="https://d3js.org/d3.v2.min.js"></script>
+    <script src="lib/colorbrewer.js"></script>
+    <script src="air-vis.js"></script>
+    <script src="lib/d3.v2.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+    <div class="content Title">
+        <h1>Visualization of Air Pollution </h1>   </div>
+</header>
+<section id="vis" class="container">
+    <div class="content">
+        <div id="loading">Loading...</div>
+        <div id="stations">
+            <div class="col-md-6">
+            <div id="map-wrapper">
+                <svg class="map"></svg>
+            </div></div>
+            <div class="col-md-6">
+            <div id="station">
+                <h2 id="station-name"></h2>
+                <div id="radial-wrapper">
+                    <svg class="radial"></svg>
+                </div>
+                <div id="tiles-wrapper">
+                    <svg class="tiles"></svg>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="pollutant-selector"></div>
+    </div>
+</section>
+<div id="ix-hint">
+    <p>Try clicking a dot on the map, a layer in the stacked area chart, or a pollutant name on the bottom.</p>
+</div>
+
+
+</body>
+</html>

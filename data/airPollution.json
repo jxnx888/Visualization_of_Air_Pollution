@@ -1,0 +1,95 @@
+{
+  "metadata":{
+    "language":"en-US",
+    "transaction_id":"1512225245225:-554841208",
+    "version":"2",
+    "latitude":39.90,
+    "longitude":116.41,
+    "expire_time_gmt":1512225545,
+    "status_code":200
+  },
+  "globalairquality":[
+    {
+      "class":"globalairquality",
+      "area_id":"wx4g390",
+      "area_name":"Beijing",
+      "admin_level_1":"Beijing",
+      "country_cd":"CN",
+      "latitude":39.9522,
+      "longitude":116.434,
+      "source":"IBM China",
+      "rpt_dt":"2017-12-02T13:00:00Z",
+      "valid_time_lap":"2017-12-02T21:00:00+08:00",
+      "process_tm_gmt":1512222318,
+      "data_type":"O",
+      "air_quality_scale":"AQI",
+      "action_day_ind":"N",
+      "air_quality_cmnt":null,
+      "air_quality_idx":271,
+      "air_quality_cat":"Very Unhealthy",
+      "air_quality_cat_idx":5,
+      "pollutants":[
+        {
+          "pollutant":"PM2.5",
+          "pollutant_amount":221,
+          "pollutant_unit":"µg/m3",
+          "pollutant_cat":null,
+          "pollutant_cat_idx":null,
+          "pollutant_idx":null,
+          "primary_pollutant_ind":"Y",
+          "pollutant_phrase":"Particulate matter less than 2.5 microns"
+        },
+        {
+          "pollutant":"PM10",
+          "pollutant_amount":267,
+          "pollutant_unit":"µg/m3",
+          "pollutant_cat":null,
+          "pollutant_cat_idx":null,
+          "pollutant_idx":null,
+          "primary_pollutant_ind":"N",
+          "pollutant_phrase":"Particulate matter less than 10 microns"
+        },
+        {
+          "pollutant":"NO2",
+          "pollutant_amount":140,
+          "pollutant_unit":"ppb",
+          "pollutant_cat":null,
+          "pollutant_cat_idx":null,
+          "pollutant_idx":null,
+          "primary_pollutant_ind":"N",
+          "pollutant_phrase":"Nitrogen Dioxide"
+        },
+        {
+          "pollutant":"SO2",
+          "pollutant_amount":18,
+          "pollutant_unit":"ppb",
+          "pollutant_cat":null,
+          "pollutant_cat_idx":null,
+          "pollutant_idx":null,
+          "primary_pollutant_ind":"N",
+          "pollutant_phrase":"Sulfur Dioxide"
+        },
+        {
+          "pollutant":"OZONE",
+          "pollutant_amount":10,
+          "pollutant_unit":"ppb",
+          "pollutant_cat":null,
+          "pollutant_cat_idx":null,
+          "pollutant_idx":null,
+          "primary_pollutant_ind":"N",
+          "pollutant_phrase":"Ozone"
+        },
+        {
+          "pollutant":"CO",
+          "pollutant_amount":2.8,
+          "pollutant_unit":"ppm",
+          "pollutant_cat":null,
+          "pollutant_cat_idx":null,
+          "pollutant_idx":null,
+          "primary_pollutant_ind":"N",
+          "pollutant_phrase":"Carbon Monoxide"
+        }
+      ]
+    }
+  ]
+}-
